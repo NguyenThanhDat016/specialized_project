@@ -29,7 +29,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="67dp"
+                android:layout_width="114dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
@@ -37,25 +37,25 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ship ID:" />
+                    android:text="Mã chuyến: " />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pig No:" />
+                    android:text="Số heo:" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Weight:" />
+                    android:text="Cân nặng:" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Status:" />
+                    android:text="Trạng thái" />
             </LinearLayout>
 
             <LinearLayout
@@ -104,14 +104,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Edit" />
+                    android:text="Sửa" />
 
                 <Button
                     android:id="@+id/btnkilled"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Killed" />
+                    android:text="Giết thịt" />
             </LinearLayout>
 
             <LinearLayout

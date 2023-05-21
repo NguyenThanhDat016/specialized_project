@@ -41,7 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="44dp"
                     android:gravity="center|left"
-                    android:text="Pig No:"
+                    android:text="Số heo:"
                     android:textSize="16sp" />
 
                 <TextView
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
                     android:gravity="center|left"
-                    android:text="Height"
+                    android:text="Cân nặng:"
                     android:textSize="16sp" />
             </LinearLayout>
 
@@ -84,14 +84,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Save" />
+                android:text="Lưu" />
 
             <Button
                 android:id="@+id/btncancelP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Cancel" />
+                android:text="Huỷ" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

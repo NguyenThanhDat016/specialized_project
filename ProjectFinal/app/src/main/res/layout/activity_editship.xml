@@ -41,7 +41,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="47dp"
                     android:gravity="center|left|center_vertical"
-                    android:text="No in day:"
+                    android:text="Lon"
                     android:textSize="16sp" />
 
                 <TextView
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="47dp"
                     android:gravity="center|left"
-                    android:text="Weight of cage: "
+                    android:text="Lồng:"
                     android:textSize="16sp"
                     tools:visibility="visible" />
 
@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:gravity="center|center_horizontal|left"
-                    android:text="Price:"
+                    android:text="Giá:"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -102,14 +102,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Save" />
+                android:text="Lưu" />
 
             <Button
                 android:id="@+id/btnincancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Cancel" />
+                android:text="Huỷ" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

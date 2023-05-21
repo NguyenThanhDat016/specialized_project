@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="PIG"
+        android:text="HEO"
         android:textColor="@color/purple_700"
         android:textSize="34sp"
         android:textStyle="bold" />
@@ -29,17 +29,17 @@
 
         <Button
             android:id="@+id/btninstock"
-            android:layout_width="wrap_content"
+            android:layout_width="103dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Instock" />
+            android:text="Trong chuồng" />
 
         <Button
             android:id="@+id/btnkilledP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="killed" />
+            android:text="Đã giết" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,17 +49,17 @@
 
         <Button
             android:id="@+id/btnaddP"
-            android:layout_width="wrap_content"
+            android:layout_width="98dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="add pig" />
+            android:text="Thêm heo" />
 
         <Button
             android:id="@+id/btnship"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Return" />
+            android:text="Trở về" />
     </LinearLayout>
 
 </LinearLayout>

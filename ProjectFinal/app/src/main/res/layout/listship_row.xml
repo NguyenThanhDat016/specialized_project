@@ -32,49 +32,49 @@
                     android:id="@+id/textView24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ID:" />
+                    android:text="Mã số:" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Weight of cage:" />
+                    android:text="Lồng:" />
 
                 <TextView
                     android:id="@+id/textView26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Total Price:" />
+                    android:text="Tổng giá:" />
 
                 <TextView
                     android:id="@+id/textView27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Number in day:" />
+                    android:text="Số thứ tự:" />
 
                 <TextView
                     android:id="@+id/textView28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Date:" />
+                    android:text="Ngày:" />
 
                 <TextView
                     android:id="@+id/textView29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Total Pig:" />
+                    android:text="Tổng heo:" />
 
                 <TextView
                     android:id="@+id/textView30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Price:" />
+                    android:text="Giá:" />
 
                 <TextView
                     android:id="@+id/textView31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Status:" />
+                    android:text="Trạng thái:" />
             </LinearLayout>
 
             <LinearLayout
@@ -144,20 +144,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="List pig" />
+            android:text="DS Heo" />
 
         <Button
             android:id="@+id/btneditS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Edit" />
+            android:text="Sửa" />
 
         <Button
             android:id="@+id/btndeleteS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Delete" />
+            android:text="Xoá" />
     </LinearLayout>
 </LinearLayout>

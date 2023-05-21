@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
                 android:gravity="center|left"
-                android:text="Pig No:"
+                android:text="Số heo:"
                 android:textSize="24sp" />
 
             <TextView
@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="43dp"
                 android:gravity="center|left"
-                android:text="Height:"
+                android:text="Cân nặng"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Add" />
+            android:text="Thêm" />
     </LinearLayout>
 
     <LinearLayout
@@ -95,7 +95,7 @@
             android:id="@+id/btnback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Back" />
+            android:text="Trở về" />
     </LinearLayout>
 
 </LinearLayout>

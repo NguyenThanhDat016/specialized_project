@@ -25,13 +25,13 @@
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pig No:" />
+            android:text="Số heo:" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Height:" />
+            android:text="Cân nặng:" />
     </LinearLayout>
 
     <LinearLayout
