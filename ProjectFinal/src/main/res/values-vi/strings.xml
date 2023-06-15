@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pig calculator</string>
+    <string name="pignum">Số heo:</string>
+    <string name="weight">Cân nặng:</string>
+    <string name="add">Thêm</string>
+    <string name="addpig">Thêm heo</string>
+    <string name="back">Trở về</string>
+    <string name="num">Thứ tự:</string>
+    <string name="cage">Lồng:</string>
+    <string name="price">Giá:</string>
+    <string name="totalprice">Tổng Giá:</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Huỷ</string>
+    <string name="pig">Lợn</string>
+    <string name="totalpig">Tổng Lợn:</string>
+    <string name="trip">Chuyến hàng</string>
+    <string name="avai">Còn hàng</string>
+    <string name="unavai">Hết hàng</string>
+    <string name="addtrip">Thêm chuyến</string>
+    <string name="tran">VI -> EN</string>
+    <string name="oncage">Trong chuồng</string>
+    <string name="killed">Đã giết</string>
+    <string name="tripid">Mã chuyến:</string>
+    <string name="status">Trạng thái</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xoá</string>
+    <string name="kill">Giết thịt</string>
+    <string name="id">Mã số:</string>
+    <string name="date">Ngày:</string>
+    <string name="piglist">DS Heo</string>
+</resources>

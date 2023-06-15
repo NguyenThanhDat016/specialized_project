@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.projectfinal.R;
@@ -17,7 +18,7 @@ import com.example.projectfinal.database.Database;
 public class AddshipmentActivity extends AppCompatActivity {
 
     final String DATABASE_NAME="finalproject";
-    Button btnsave,btncancel;
+    ImageButton btnsave,btncancel;
     TextView edtnoinday,edtwoc,edtprice;
     int id=-1;
 

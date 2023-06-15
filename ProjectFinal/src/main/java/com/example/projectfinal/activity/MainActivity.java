@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.example.projectfinal.R;
@@ -17,6 +20,7 @@ import com.example.projectfinal.adapter.AdapterShipment;
 import com.example.projectfinal.database.Database;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     SQLiteDatabase database;
@@ -24,9 +28,11 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     ArrayList <Shipment> lists;
     AdapterShipment adapterShipment;
-    Button btnavai;
-    Button btnunavai;
-    Button btnadd;
+    ImageButton btnavai;
+    ImageButton btnunavai;
+    ImageButton btnadd;
+
+    ImageButton btnLanguageSwitch;
     String query="SELECT * FROM shipment sh " +
             "inner join Status s on sh.Status=s.ID " +
             "WHERE sh.Status=3";
@@ -70,11 +76,38 @@ public class MainActivity extends AppCompatActivity {
                 readDataS();
             }
         });
+        btnLanguageSwitch = findViewById(R.id.btnLanguageSwitch);
+        btnLanguageSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switchLanguage();
+            }
+        });
 
-        listView =findViewById(R.id.listviewship);
-        lists=new ArrayList<>();
-        adapterShipment =new AdapterShipment(this,lists);
+        listView = findViewById(R.id.listviewship);
+        lists = new ArrayList<>();
+        adapterShipment = new AdapterShipment(this, lists);
         listView.setAdapter(adapterShipment);
+    }
+
+    private void switchLanguage() {
+        Locale currentLocale = getResources().getConfiguration().locale;
+        String currentLanguage = currentLocale.getLanguage();
+
+
+        Locale newLocale;
+        if (currentLanguage.equals("en")) {
+            newLocale = new Locale("vi");
+        } else {
+            newLocale = new Locale("en");
+        }
+
+        Resources res = getResources();
+        Configuration conf = res.getConfiguration();
+        conf.setLocale(newLocale);
+        res.updateConfiguration(conf, res.getDisplayMetrics());
+
+        recreate();
     }
 
     private void readDataS(){

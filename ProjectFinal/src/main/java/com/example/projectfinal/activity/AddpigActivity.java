@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -28,7 +29,7 @@ public class AddpigActivity extends AppCompatActivity {
     ListView listView;
     ArrayList<Pig> lists;
     AdapterAddPig adapterAddPig;
-    Button btnadd,btnback;
+    ImageButton btnadd,btnback;
     EditText edtpigno,edtheight;
     int id;
     @Override

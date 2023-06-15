@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import com.example.projectfinal.R;
 import com.example.projectfinal.database.Database;
@@ -18,7 +19,7 @@ import com.example.projectfinal.database.Database;
 public class EditshipActivity extends AppCompatActivity {
     SQLiteDatabase database;
     EditText edtnoinday,edtwoc,edtprice;
-    Button btnsave,btncancel;
+    ImageButton btnsave,btncancel;
     final String DATABASE_NAME="finalproject";
     int id=-1;
 

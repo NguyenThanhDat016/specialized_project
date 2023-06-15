@@ -32,49 +32,57 @@
                     android:id="@+id/textView24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mã số:" />
+                    android:text="@string/id"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lồng:" />
+                    android:text="@string/cage"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tổng giá:" />
+                    android:text="@string/totalprice"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Số thứ tự:" />
+                    android:text="@string/id"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Ngày:" />
+                    android:text="@string/date"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tổng heo:" />
+                    android:text="@string/totalprice"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Giá:" />
+                    android:text="@string/price"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Trạng thái:" />
+                    android:text="@string/status"
+                    android:textColor="@color/white"/>
             </LinearLayout>
 
             <LinearLayout
@@ -86,49 +94,57 @@
                     android:id="@+id/txtIDS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ID" />
+                    android:text="ID"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtWoC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Weight of Cage" />
+                    android:text="Weight of Cage"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtTotalprice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Total Price" />
+                    android:text="Total Price"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtNoinday"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Number in day" />
+                    android:text="Number in day"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Date" />
+                    android:text="Date"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtTotalpig"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Total Pig" />
+                    android:text="Total Pig"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Price" />
+                    android:text="Price"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/txtStatusS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Status" />
+                    android:text="Status"
+                    android:textColor="@color/white"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -139,25 +155,31 @@
         android:layout_height="57dp"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnchangeS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="DS Heo" />
+            android:src="@drawable/_danhsach"
+            android:background="@color/hong"
+            android:scaleType="centerInside"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/btneditS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Sửa" />
+            android:src="@drawable/_sua"
+            android:background="@color/hong"
+            android:scaleType="centerInside"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/btndeleteS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Xoá" />
+            android:src="@drawable/_het"
+            android:background="@color/hong"
+            android:scaleType="centerInside"/>
     </LinearLayout>
 </LinearLayout>

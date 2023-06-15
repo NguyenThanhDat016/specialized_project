@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/hongnhat"
     tools:context=".activity.EditshipActivity">
 
     <ImageView
@@ -41,25 +42,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="47dp"
                     android:gravity="center|left|center_vertical"
-                    android:text="Lon"
-                    android:textSize="16sp" />
+                    android:text="@string/pig"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="47dp"
                     android:gravity="center|left"
-                    android:text="Lồng:"
+                    android:text="@string/cage"
                     android:textSize="16sp"
-                    tools:visibility="visible" />
+                    tools:visibility="visible"
+                    android:textColor="@color/white"/>
 
                 <TextView
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:gravity="center|center_horizontal|left"
-                    android:text="Giá:"
-                    android:textSize="16sp" />
+                    android:text="@string/price"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
 
             </LinearLayout>
 
@@ -97,19 +101,23 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <Button
+            <ImageButton
                 android:id="@+id/btninsave"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="Lưu" />
+                android:src="@drawable/_luu"
+                android:background="@color/hong"
+                android:scaleType="centerInside"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/btnincancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="Huỷ" />
+                android:src="@drawable/_het"
+                android:background="@color/hong"
+                android:scaleType="centerInside"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

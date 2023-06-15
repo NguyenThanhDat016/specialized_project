@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/hongnhe"
     tools:context=".activity.PigActivity">
 
     <TextView
@@ -12,9 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="HEO"
-        android:textColor="@color/purple_700"
-        android:textSize="34sp"
+        android:text="@string/pig"
+        android:textColor="@color/nau"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <ListView
@@ -27,19 +28,23 @@
         android:layout_height="49dp"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btninstock"
-            android:layout_width="103dp"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Trong chuồng" />
+            android:src="@drawable/_trongchuong"
+            android:background="@color/hong"
+            android:scaleType="centerInside" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnkilledP"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Đã giết" />
+            android:src="@drawable/_dagiet"
+            android:background="@color/hong"
+            android:scaleType="centerInside" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,19 +52,23 @@
         android:layout_height="48dp"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnaddP"
-            android:layout_width="98dp"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Thêm heo" />
+            android:src="@drawable/_them"
+            android:background="@color/hong"
+            android:scaleType="centerInside" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnship"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Trở về" />
+            android:src="@drawable/_trove"
+            android:background="@color/hong"
+            android:scaleType="centerInside" />
     </LinearLayout>
 
 </LinearLayout>

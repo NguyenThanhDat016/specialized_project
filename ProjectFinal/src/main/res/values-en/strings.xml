@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pig calculator</string>
+    <string name="pignum">Pig num:</string>
+    <string name="weight">Weight:</string>
+    <string name="add">Add</string>
+    <string name="addpig">Add pig</string>
+    <string name="back">Back</string>
+    <string name="num">No:</string>
+    <string name="cage">Cage:</string>
+    <string name="price">Price:</string>
+    <string name="totalprice">Total price:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="pig">Pig</string>
+    <string name="totalpig">Total pig:</string>
+    <string name="trip">Shipment</string>
+    <string name="avai">Avaiable</string>
+    <string name="unavai">Unavaiable</string>
+    <string name="addtrip">Add trip</string>
+    <string name="tran">EN -> VI</string>
+    <string name="oncage">In stock</string>
+    <string name="killed">Killed</string>
+    <string name="tripid">Ship ID</string>
+    <string name="status">Status</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="kill">Kill</string>
+    <string name="id">ID:</string>
+    <string name="date">Date:</string>
+    <string name="piglist">List pig</string>
+</resources>

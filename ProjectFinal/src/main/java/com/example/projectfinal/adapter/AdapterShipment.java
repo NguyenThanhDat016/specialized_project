@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.projectfinal.R;
@@ -56,9 +57,9 @@ public class AdapterShipment extends BaseAdapter {
         TextView txttotalpig= row.findViewById(R.id.txtTotalpig);
         TextView txtprice= row.findViewById(R.id.txtPrice);
         TextView txtstatus=row.findViewById(R.id.txtStatusS);
-        Button btnedit=row.findViewById(R.id.btneditS);
-        Button btndelete=row.findViewById(R.id.btndeleteS);
-        Button btnchange=row.findViewById(R.id.btnchangeS);
+        ImageButton btnedit=row.findViewById(R.id.btneditS);
+        ImageButton btndelete=row.findViewById(R.id.btndeleteS);
+        ImageButton btnchange=row.findViewById(R.id.btnchangeS);
 
         Shipment shipment=list.get(position);
         txtid.setText(shipment.ID+"");

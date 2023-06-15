@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/hongdam"
     tools:context=".activity.EditpigActivity">
 
     <ImageView
@@ -41,16 +42,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="44dp"
                     android:gravity="center|left"
-                    android:text="Số heo:"
-                    android:textSize="16sp" />
+                    android:text="@string/pignum"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
                     android:gravity="center|left"
-                    android:text="Cân nặng:"
-                    android:textSize="16sp" />
+                    android:text="@string/weight"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
             </LinearLayout>
 
             <LinearLayout
@@ -63,14 +66,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:textColor="@color/black"/>
 
                 <EditText
                     android:id="@+id/editheight"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:textColor="@color/black"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -79,19 +84,23 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <Button
+            <ImageButton
                 android:id="@+id/btnsaveP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="Lưu" />
+                android:src="@drawable/_luu"
+                android:background="@color/hong"
+                android:scaleType="centerInside"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/btncancelP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="Huỷ" />
+                android:src="@drawable/_het"
+                android:background="@color/hong"
+                android:scaleType="centerInside"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

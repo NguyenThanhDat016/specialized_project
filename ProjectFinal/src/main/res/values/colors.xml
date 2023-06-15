@@ -7,4 +7,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="pink">#FF00FF</color>
+    <color name="blue">#06CEFF</color>
+    <color name="yellow">#EAFF06</color>
+    <color name="sky">#06BCFF</color>
+    <color name="green">#00FF64</color>
+    <color name="xanhla">#00FF85</color>
+    <color name="nau">#643843</color>
+    <color name="hongdam">#99627A</color>
+    <color name="hongnhat">#C88EA7</color>
+    <color name="hong">#E7CBCB</color>
+    <color name="hongbaby">#FDCEDF</color>
+    <color name="hongnhe">#F2BED1</color>
 </resources>

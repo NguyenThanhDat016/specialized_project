@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.projectfinal.activity.EditpigActivity;
@@ -52,8 +53,8 @@ public class AdapterPig extends BaseAdapter {
         TextView txtship=row.findViewById(R.id.txtshipid);
         TextView txtheight= row.findViewById(R.id.txtweight);
         TextView txtstatus= row.findViewById(R.id.txtstatusP);
-        Button btnedit=row.findViewById(R.id.btneditP);
-        Button btnkilled=row.findViewById(R.id.btnkilled);
+        ImageButton btnedit=row.findViewById(R.id.btneditP);
+        ImageButton btnkilled=row.findViewById(R.id.btnkilled);
 
         Pig pig=list.get(position);
         txtid.setText(pig.PigNo+"");

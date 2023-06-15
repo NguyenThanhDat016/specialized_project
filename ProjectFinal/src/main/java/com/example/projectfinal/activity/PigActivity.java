@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.example.projectfinal.R;
@@ -27,13 +28,13 @@ public class PigActivity extends AppCompatActivity {
     ListView listView;
     ArrayList<Pig> lists;
     AdapterPig adapterPig;
-    Button btninstock;
-    Button btnkilled;
-    Button btnadd;
-    Button btnreturn;
+    ImageButton btninstock;
+    ImageButton btnkilled;
+    ImageButton btnadd;
+    ImageButton btnreturn;
     String query= "SELECT * FROM pig p " +
-                    "inner join Status s on p.StatusID=s.ID " +
-                    "WHERE p.ShipID=? AND p.StatusID=1";
+            "inner join Status s on p.StatusID=s.ID " +
+            "WHERE p.ShipID=? AND p.StatusID=1";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/hongnhat"
     tools:context=".activity.AddpigActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,16 +36,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
                 android:gravity="center|left"
-                android:text="Số heo:"
-                android:textSize="24sp" />
+                android:text="@string/pignum"
+                android:textSize="24sp"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="43dp"
                 android:gravity="center|left"
-                android:text="Cân nặng"
-                android:textSize="24sp" />
+                android:text="@string/weight"
+                android:textSize="24sp"
+                android:textColor="@color/white"/>
         </LinearLayout>
 
         <LinearLayout
@@ -57,14 +60,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textColor="@color/white"/>
 
             <EditText
                 android:id="@+id/edtinheight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textColor="@color/white"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -73,12 +78,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnaddpig"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Thêm" />
+            android:src="@drawable/_them"
+            android:background="@color/hong"
+            android:scaleType="centerInside"/>
     </LinearLayout>
 
     <LinearLayout
@@ -91,11 +98,13 @@
             android:layout_width="match_parent"
             android:layout_height="376dp" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnback"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Trở về" />
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/_trove"
+            android:background="@color/hong"
+            android:scaleType="centerInside"/>
     </LinearLayout>
 
 </LinearLayout>
